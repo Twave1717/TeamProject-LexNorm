@@ -1,6 +1,6 @@
 # AI Intro MultiLexNorm 2026 Workspace
 
-Korean version: [README_KR.md](/home/lgs/KiostKY/STUDY26/AI_intro/README_KR.md)
+Korean version: [README_KR.md](README_KR.md)
 
 This repository is the shared workspace for a 4-person team project based on the
 MultiLexNorm 2026 task for the AI Intro course. The task is multilingual lexical
