@@ -1,0 +1,9 @@
+*.pdf
+.codex
+.env
+.venv/*
+baseline/.venv/*
+**/__pycache__/
+outputs/
+*.zip
+.ipynb_checkpoints/
