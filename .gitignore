@@ -7,3 +7,6 @@ baseline/.venv/*
 outputs/
 *.zip
 .ipynb_checkpoints/
+member_ky/temp/*.xlsx
+member_ky/temp/*.csv
+.DS_*
