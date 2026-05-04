@@ -9,4 +9,7 @@ outputs/
 .ipynb_checkpoints/
 member_ky/temp/*.xlsx
 member_ky/temp/*.csv
+member_ky/temp/**/*.csv
+member_ky/temp/**/*.jsonl
+member_ky/temp/**/*.json
 .DS_*
