@@ -1,0 +1,16 @@
+{
+  "title": "metadata_card",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["case_id", "term", "surface_meaning", "social_context_needed", "social_context", "normalization_guidance", "risks", "confidence"],
+  "properties": {
+    "case_id": {"type": "string"},
+    "term": {"type": "string"},
+    "surface_meaning": {"type": "string"},
+    "social_context_needed": {"type": "boolean"},
+    "social_context": {"type": "string"},
+    "normalization_guidance": {"type": "string"},
+    "risks": {"type": "array", "items": {"type": "string"}},
+    "confidence": {"type": "number", "minimum": 0, "maximum": 1}
+  }
+}

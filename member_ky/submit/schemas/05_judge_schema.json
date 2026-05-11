@@ -1,0 +1,26 @@
+{
+  "title": "judge_output",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["case_id", "decision", "confidence", "social_context_needed", "softened", "scores", "evidence"],
+  "properties": {
+    "case_id": {"type": "string"},
+    "decision": {"type": "string", "enum": ["Accept", "Reject"]},
+    "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+    "social_context_needed": {"type": "boolean"},
+    "softened": {"type": "boolean"},
+    "scores": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["meaning_preservation", "lexical_normalization", "standardness", "context_awareness", "over_softening_penalty"],
+      "properties": {
+        "meaning_preservation": {"type": "integer", "minimum": 0, "maximum": 3},
+        "lexical_normalization": {"type": "integer", "minimum": 0, "maximum": 3},
+        "standardness": {"type": "integer", "minimum": 0, "maximum": 2},
+        "context_awareness": {"type": ["integer", "null"], "minimum": 0, "maximum": 3},
+        "over_softening_penalty": {"type": "integer", "minimum": 0, "maximum": 2}
+      }
+    },
+    "evidence": {"type": "string"}
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "title": "normalizer_output",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["case_id", "edit", "normalized", "confidence"],
+  "properties": {
+    "case_id": {"type": "string"},
+    "edit": {"type": "boolean"},
+    "normalized": {"type": "string"},
+    "confidence": {"type": "number", "minimum": 0, "maximum": 1}
+  }
+}

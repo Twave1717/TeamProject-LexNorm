@@ -12,4 +12,9 @@ member_ky/temp/*.csv
 member_ky/temp/**/*.csv
 member_ky/temp/**/*.jsonl
 member_ky/temp/**/*.json
+member_ky/gold_audit/results/*
+!member_ky/gold_audit/results/.gitkeep
+member_ky/gold_audit/sampled_dataset/*
+!member_ky/gold_audit/sampled_dataset/.gitkeep
 .DS_*
+member_ky/archive/

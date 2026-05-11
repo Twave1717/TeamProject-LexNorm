@@ -1,0 +1,25 @@
+[project]
+name = "lexnorm-submit"
+version = "0.1.0"
+description = "Submission workspace for MultiLexNorm2026 lexical normalization experiments"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas",
+    "numpy",
+    "datasets",
+    "transformers>=5.0,<6",
+    "accelerate",
+    "sentencepiece",
+    "protobuf",
+    "safetensors",
+    "torch",
+    "tqdm",
+    "openai>=1.80",
+    "wandb",
+    "matplotlib",
+    "jupyter",
+]
+
+[tool.uv]
+package = false

@@ -1,1 +1,0 @@
-"""KY experiment package."""
